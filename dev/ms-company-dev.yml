@@ -1,6 +1,5 @@
 db:
-  username: susaya
-  maximum-pool-size: 5
-  connection-timeout: 20000
-  url: jdbc:postgresql://db-message:5432/message
-  password: susaya
+  r2dbc:
+    username: suphida
+    url: r2dbc:postgresql://localhost:5431/db-suphida
+    password: Suphida1992$
