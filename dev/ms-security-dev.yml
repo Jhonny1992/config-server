@@ -1,0 +1,12 @@
+    db:
+      username: security
+      url: jdbc:postgresql://localhost:5432/db-security
+      password: Security1992$
+      driver-class-name: org.postgresql.Driver
+    secu:
+      jwt:
+        secret-key: bXkgY2xhdmUgZXMgZGVtYXNpYWRvIHNlZ3VyYWFhYSBwYXJhIHRvZG9zc3MhISE=
+        expiration-in-minutes: 30
+      default:
+        role: USER
+    
